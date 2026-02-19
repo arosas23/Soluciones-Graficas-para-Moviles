@@ -108,12 +108,12 @@ class MainActivity : AppCompatActivity() {
             resultadoMostrado = true
         }
 
-        // C (borrar pantalla)
+        // C (borrar el num actual)
         findViewById<Button>(R.id.btnC).setOnClickListener {
             result.text = "0"
         }
 
-        // CA (borrar)
+        // CA (borrar all)
         findViewById<Button>(R.id.btnCA).setOnClickListener {
             result.text = "0"
             temp.text = ""
