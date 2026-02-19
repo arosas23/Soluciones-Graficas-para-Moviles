@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:padding="10dp"
-        android:text="0"
+        android:text="@string/cero"
         android:textAlignment="textEnd"
         android:textColor="#949494"
         android:textSize="34sp" />
@@ -25,11 +25,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:padding="10dp"
-        android:text="0"
+        android:text="@string/cero"
         android:textAlignment="textEnd"
         android:textSize="60sp" />
 
     <include
         layout="@layout/buttons_layout"
-        android:layout_width="match_parent" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
